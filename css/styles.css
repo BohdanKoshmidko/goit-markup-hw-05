@@ -77,6 +77,11 @@ hr {
   margin-right: 50px;
 }
 
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
 .site-nav .item:last-child {
   margin-right: 0;
 }
@@ -439,6 +444,11 @@ hr {
   margin-right: 0;
 }
 
+.company-icon {
+  fill: #AFB1B8;
+  
+}
+
 .border-partners {
   padding: 0;
   width: 170px;
@@ -450,7 +460,7 @@ hr {
   border-radius: 4px;
   color: #AFB1B8;
 
-  transition-property: color;
+  transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -460,7 +470,7 @@ hr {
 }
 
 .border-partners:hover .company-icon {
-  color: #2196F3;;
+  fill: #2196F3;
 }
 
 .border-partners .company-icon {
