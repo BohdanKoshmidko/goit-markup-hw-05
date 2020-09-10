@@ -438,6 +438,8 @@ hr {
 .partners-cont .partnes-logo {
   margin-right: 30px;
   margin-top: 50px;
+  
+  transition: color 25s cubic-bezier(0.4, 0, 0.2, 1), border 25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .partners-cont .partnes-logo:last-child {
@@ -460,9 +462,9 @@ hr {
   border-radius: 4px;
   color: #AFB1B8;
 
-  transition-property: border-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  /*transition-property: border-color;
+  transition-duration: 250s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 
 .border-partners:hover {
@@ -475,6 +477,7 @@ hr {
 
 .border-partners .company-icon {
   fill: currentColor;
+  transition: fill 25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Footer*/
